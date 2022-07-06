@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.copy-container {
+  height: 30px; 
+  background-color: rgb(15,23,42,1); 
+  border-bottom-left-radius: 20px;
+}
+
+.copy-container .icon {
+  margin-left: 20px;
+}
+
+.copy-container .icon:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.description-label {
+  font-size: 14px;
+  color: rgba(255,255,255,0.7)
+}
+
+.home-container {
+  background-color: rgba(0,0,0,1);
+  color: white;
+}
+
+.home-container .options-container{
+  display: flex;
+  flex-direction: row; 
+  margin-left: 50px;
+}
+
+.home-container .options-container .button-container{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.home-container .options-container .button-container .new-chain{
+  color: white;
+  background-color: teal;
+}
+
+.nxtp-logo-container {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  margin-left: 20px;
+}
+
+.nxtp-logo-container label {
+  font-weight: bold; 
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.nxtp-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px; 
+  margin-top: 20px;
+}
+
+.group-container {
+  width: 800px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-end-end-radius: 20px;
+  border-top-right-radius: 20px;
+  border-width: 1px; 
+  border-color: grey; 
+  border-style: ridge; 
+  display: flex;
+  flex-direction: column;
+}
+
+.group-container .title{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.chain-container {
+  background-color: rgb(15,23,42,1);
+  width: 800px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.chain-container label{
+  color: white;
+}
+
+.asset-container {
+  margin-bottom: 10px;
+  margin-left: 10px; 
+  display: flex; 
+  flex-direction: column;
+}
+
+.asset-container label {
+  margin-right: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.asset-container .inputs-container {
+  display: flex; 
+  margin-bottom: 10px;
+  margin-right: 10px; 
+  flex-direction: row; 
+  align-items: center;
+}
+
+.asset-container .button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.asset-container .button-container button{
+  background-color: steelblue;
+  color: white;
+}
+
+.chain-domain {
+  width: 200px; 
+  margin-bottom: 10px; 
+  margin-left: 10px; 
+  margin-top: 30px; 
+  display: 'flex';
+}
+
+.chain-domain label {
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: steelblue;
+}
+
+.chain-modal {
+  width: 600px;
+}
+
+.chain-modal input {
+  width: 150px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.asset-modal {
+  width: 600px;
+}
+
+.asset-modal input {
+  margin-right: 10px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.asset-modal .name {
+  width: 150px
+}
