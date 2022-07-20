@@ -14,7 +14,7 @@ export const defaultConfig = {
        "1111":{
           "assets":[
              {
-                "address":"0xcF4d2994088a8CDE52FB584fE29608b63Ec063B2",
+                "address":"0x3FFc03F05D1869f493c7dbf913E636C6280e0ff9",
                 "name":"TEST"
              }
           ],
@@ -28,7 +28,7 @@ export const defaultConfig = {
           ],
           "assets":[
              {
-                "address":"0xB5AabB55385bfBe31D627E2A717a7B189ddA4F8F",
+                "address":"0x3FFc03F05D1869f493c7dbf913E636C6280e0ff9",
                 "name":"TEST"
              }
           ]

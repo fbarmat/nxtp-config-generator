@@ -13,6 +13,6 @@ export const customStyles = {
 
 export const aceEditorStyle = {
   height: '75vh', 
-  width: 500, 
+  width: '30vw', 
   borderStartStartRadius: 20
 };
